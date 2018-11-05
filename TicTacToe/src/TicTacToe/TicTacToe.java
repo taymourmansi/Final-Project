@@ -8,26 +8,11 @@ import java.util.Scanner;
 public class TicTacToe {
 	public static void main(String[] args){
 		
-		int[] x = { 4, 11, -3, 0, 46, 11, 9, -77, 3, 11};
-		search(x);
-		
+		double a = 0.7;
+		double b = 0.9;
+		double x= a + 0.1;
+		double y = b -0.1;
+		System.out.println(x == y);
 	}
-	public static void search( int [] x) {
-		Scanner input = new Scanner(System.in);
-		System.out.printf("Enter a number: ");
-		int userInput = input.nextInt();
-		for(int i = 0; i<10; i++) {
-			if (userInput == x[i]) {
-				System.out.printf("%d", x[i]);
-				System.exit(0);
-			}
-			else {
-				System.out.printf("-1");
-				System.exit(0);
-			
-			}
-			i++;
-		}
-		
-	} 
 }
+
