@@ -35,3 +35,7 @@ Nolan
 Taymour
 
 Nick
+
+# Comments
+1. Better formatting this file following the given template
+2. Write more details on the deliverables. What features will be delivered for Front/Back end?
