@@ -19,15 +19,27 @@
 ## Week 2 (Nov 5 - Nov 12)
 
 ### What did your team do last week?
-Last week we established how to design and draw the board, how to
-draw the x's and o's. We also figured out some code and class design
-layout and mous tracking.
+* Last week we established how to design and draw the board, how to
+* draw the x's and o's. We also figured out some code and class design
+* layout and mous tracking.
 
 ### What will you do this week?
-This week we will work on game logic behavior and game actions. This
-is an important week in progressing the game mechanics and play.
+*This week we will work on game logic behavior and game actions.
+* This is an important week in progressing the game mechanics and play.
 
 ### Any blocking issues/challenges need to be addressed?
-One issue that should be addressed is that, although have git makes
-it helpful to do work on your own, we need to orchestrate 
-certain work better amongst ourselves.
+* we need to orchestrate certain work better amongst ourselves.
+
+## Week 3 (Nov 12 - Nov 19)
+
+### What did your team do last week?
+* we implemented player and board behavior
+* began networking our game in a client server model
+
+### What will you do this week?
+* finish implimenting client server behavior
+* Research how to get multiple games on one server
+* Begin designing server to handle multiple games with different clients
+
+### Any blocking issues/challenges need to be addressed?
+* Keeping eachother's work compatible and implementing everyone's ideas
