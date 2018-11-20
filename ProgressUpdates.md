@@ -43,3 +43,17 @@
 
 ### Any blocking issues/challenges need to be addressed?
 * Keeping eachother's work compatible and implementing everyone's ideas
+
+## Week 4 (Nov 19 - Nov 26)
+
+### What did your team do last week?
+* we finalized our attempt for the GUI version of client server
+* Began implementing a version to handle multiple clients on one server
+
+### What will you do this week?
+* finish implimenting multiple clinet version
+* Continue research on how to have multiple threads on the server
+* Ensure our previous handling and listener classes cooperate with our new client and server classes
+
+### Any blocking issues/challenges need to be addressed?
+* One challenge we want to take on is adding messaging into our games.
