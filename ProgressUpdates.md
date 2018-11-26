@@ -57,3 +57,7 @@
 
 ### Any blocking issues/challenges need to be addressed?
 * One challenge we want to take on is adding messaging into our games.
+
+# Comments
+1. Make sure that your game works smoothly before adding messaging to the game.
+2. Any progress on GUI implementation?
