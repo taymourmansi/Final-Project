@@ -51,9 +51,21 @@
 * Began implementing a version to handle multiple clients on one server
 
 ### What will you do this week?
-* finish implimenting multiple clinet version
+* finish implimenting multiple client version
 * Continue research on how to have multiple threads on the server
 * Ensure our previous handling and listener classes cooperate with our new client and server classes
 
 ### Any blocking issues/challenges need to be addressed?
 * One challenge we want to take on is adding messaging into our games.
+
+## Week 5 (Nov 26 - Nov 230)
+
+### What did your team do last week?
+* completed running two clients on one server 
+
+### What will you do this week?
+* work on making sure our program does not have any bugs
+* presentation
+
+### Any blocking issues/challenges need to be addressed?
+* No issues this week, however it is important for us to stay on task and make sure the project is completed on time.
