@@ -65,7 +65,13 @@
 
 ### What will you do this week?
 * work on making sure our program does not have any bugs
+* complete GUI
 * presentation
 
 ### Any blocking issues/challenges need to be addressed?
 * No issues this week, however it is important for us to stay on task and make sure the project is completed on time.
+=======
+# Comments
+1. Make sure that your game works smoothly before adding messaging to the game.
+2. Any progress on GUI implementation?
+>>>>>>> d295ddcae0f9ab03ee24e28c6cb91aa9d1b67949
