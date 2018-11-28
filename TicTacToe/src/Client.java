@@ -23,14 +23,13 @@ public class Client {
 	private Box[] gameBoard = new Box[9];
 	private Box currSquare;
 
-	private static int PORT = 8901;
+	private static int PORT = 5555;
 	private Socket socket;
 	private BufferedReader input;
 	private PrintWriter output;
 	private boolean win = false;
 	private boolean lose = false;
 	private boolean tie = false;
-
 
 	public Client(String address) throws Exception {
 
@@ -68,7 +67,8 @@ public class Client {
 				oppImg = new ImageIcon(shape == 'X' ? "o.png" : "x.png");
 				frame.setTitle("Player " + shape);
 			}
-			while (true) {
+			final boolean t = true;
+			while (t) {
 				response = input.readLine();
 				if (response.startsWith("VALID_MOVE")) {
 					msgLbl.setText("Waiting for Opponent");
@@ -122,6 +122,7 @@ public class Client {
 	}
 
 	static class Box extends JPanel {
+		private static final long serialVersionUID = 1L;
 		JLabel label = new JLabel((Icon) null);
 
 		public Box() {

@@ -8,13 +8,14 @@ import java.net.Socket;
 public class Server {
 
 	public static void main(String[] args) throws Exception {
-		ServerSocket listener = new ServerSocket(8901);
+		ServerSocket ss = new ServerSocket(5555);
 		System.out.println("Server is Running");
 		try {
-			while (true) {
+			final boolean work = true;
+			while (work) {
 				Game game = new Game();
-				Game.Player playerOne = game.new Player(listener.accept(), 'X');
-				Game.Player playerTwo = game.new Player(listener.accept(), 'O');
+				Game.Player playerOne = game.new Player(ss.accept(), 'X');
+				Game.Player playerTwo = game.new Player(ss.accept(), 'O');
 				playerOne.setOpp(playerTwo);
 				playerTwo.setOpp(playerOne);
 				game.currentPlayer = playerOne;
@@ -22,7 +23,7 @@ public class Server {
 				playerTwo.start();
 			}
 		} finally {
-			listener.close();
+			ss.close();
 		}
 	}
 }

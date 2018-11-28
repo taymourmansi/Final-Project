@@ -4,8 +4,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-
-
 public class Game {
 	private Player[] board = { null, null, null, null, null, null, null, null, null };
 	Player currentPlayer;
@@ -63,7 +61,6 @@ public class Game {
 		public void setOpp(Player opp) {
 			this.opp = opp;
 		}
-
 
 		public void otherPlayerMoved(int position) {
 			output.println("OPPONENT_MOVED " + position);
