@@ -16,6 +16,9 @@
 
 * Tic-Tac-Toe Game frontend
 * Tic-Tac-Toe Game backend
+* GUI
+* multi client handling
+* multi game handling
 
 Documentation
 
