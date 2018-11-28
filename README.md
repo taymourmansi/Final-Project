@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-##What?
+## What?
 
 * An online Tic-Tac-Toe game that allows two players to compete head to head in a client server model.
 
@@ -35,6 +35,17 @@ Documentation
 * Taymour
 
 * Nick
+
+# Getting Started
+
+* Import the project onto your machine using the GIT download option, run 1 server followed by two clients, each player plays as a client.
+* Enjoy!
+
+# Features
+
+* Server is capable of running multiple games of 2 client tic tac toe.
+* Replay option pairs you with next available player that wants to play.
+
 
 # Comments
 1. Better formatting this file following the given template
