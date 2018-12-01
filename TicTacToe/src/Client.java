@@ -30,6 +30,22 @@ public class Client {
 	private boolean win = false;
 	private boolean lose = false;
 	private boolean tie = false;
+	
+	public static void main(String[] args) throws Exception {
+		boolean control = true;
+		while (control) {
+			String address = (args.length == 0) ? "localhost" : args[1];
+			Client client = new Client(address);
+			client.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			client.frame.setResizable(false);
+			client.frame.setVisible(true);
+			client.frame.setSize(500, 500);
+			client.play();
+			if (!client.rematch()) {
+				break;
+			}
+		}
+	}
 
 	public Client(String address) throws Exception {
 
@@ -135,19 +151,5 @@ public class Client {
 		}
 	}
 
-	public static void main(String[] args) throws Exception {
-		boolean control = true;
-		while (control) {
-			String address = (args.length == 0) ? "localhost" : args[1];
-			Client client = new Client(address);
-			client.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			client.frame.setResizable(false);
-			client.frame.setVisible(true);
-			client.frame.setSize(500, 500);
-			client.play();
-			if (!client.rematch()) {
-				break;
-			}
-		}
-	}
+
 }
