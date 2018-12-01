@@ -46,15 +46,16 @@ Documentation
 
 # Features
 
+* Includes GUI of Tic tac toe, game is played through mouse events
 * Server is capable of running multiple games of 2 client tic tac toe.
 * Replay option pairs you with next available player that wants to play.
-* https://youtu.be/OVlS7mIJ2mA
+
 
 # Demo
 
 * There is an MP4 file to download and watch the demo
 * The youtube link below also shows the demo
-* 
+* https://youtu.be/OVlS7mIJ2mA
 
 
 # Comments
